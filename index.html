@@ -2,21 +2,87 @@
 <html>
 <head>
   <title>Building The Web</title>
-  <link href= "style.css" rel= "stylesheet">
-  <!--embed google font here, like this: -- link rel="preconnect" href="https://fonts.googleapis.com" -->
+  <link href= "styles.css" rel= "stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <header>
-  <p>Inicio</p>
-  <p>HTML</p>
-  <p>CSS</p>
+  <nav>
+    <table id="menu">
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td>Inicio</td>
+        <td>HTML Elements</td>
+        <td>CSS Elements</td>
+      </tr>
+    </table>
+  </nav>
 </header>
 <body>
   <h1>Building the Web: Your Go-To Guide</h1>
   <p>This is a cheatsheet created by Cote.</p>
   <p>It was created as a practice project to document the basics of HTML and CSS.</p>
-  <p>Think of it as my personal web development notebook!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <h2>HTML Elements</h2>
+  <div class="tablas">
+    <table class="tbcuerpo">
+      <thead>
+        <tr>
+          <th class="tbtitulo">Elemento</th>
+          <th class="tbtitulo">Explicación</th>
+          <th class="tbtitulo">Nomenclatura</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tbdetalle">Ordered List</td>
+          <td class="tbdetalle">Crea una lista enumerada.</td>
+          <td class="tbdetalle">[ol][/ol]</td>
+        </tr>
+        <tr>
+          <td class="tbdetalle">Unordered List</td>
+          <td class="tbdetalle">Crea una lista no enumerada.</td>
+          <td class="tbdetalle">[ul][/ul]</td>
+        </tr>
+        <tr>
+          <td class="tbdetalle">List</td>
+          <td class="tbdetalle">Para detallar el contenido de la lista.</td>
+          <td class="tbdetalle">[li][/li]</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>CSS Elements</h2>
+  <div class="tablas">
+    <table class="tbcuerpo">
+      <thead>
+        <tr>
+          <th class="tbtitulo">Elemento</th>
+          <th class="tbtitulo">Explicación</th>
+          <th class="tbtitulo">Nomenclatura</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tbdetalle">Element</td>
+          <td class="tbdetalle">Selector que refiere a un tipo de elemento HTML.</td>
+          <td class="tbdetalle">p [color: green;]</td>
+        </tr>
+        <tr>
+          <td class="tbdetalle">Class</td>
+          <td class="tbdetalle">Un selector para aplicar estilos a múltiples elementos</td>
+          <td class="tbdetalle">.class [color: red;]</td>
+        </tr>
+        <tr>
+          <td class="tbdetalle">ID</td>
+          <td class="tbdetalle">Un selector para aplicar estilos a un solo elemento con identificador único</td>
+          <td class="tbdetalle">#id [color: blue;]</td>
+        </tr>
+      </tbody>
+    </table> 
+  </div>
 </body>
 <footer></footer>
 
